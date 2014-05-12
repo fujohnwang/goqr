@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "GoQR",
+  "description": "This extension creates a QR Code with content from URL of current window",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "qrcode.html"
+  },
+  "permissions": [
+    "https://api.qrserver.com/", "tabs"
+  ]
+}
